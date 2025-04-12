@@ -21,13 +21,12 @@ Testing Your API
 1. Base Endpoint Check
  Endpoint: GET /
  URL: http://127.0.0.1:8000/
-
- Expected Response:
-
-{ "message": "SHL Recommender API is live!"}
+ Expected Response:{ "message": "SHL Recommender API is live!"}
 2. Search Endpoint Check
 Endpoint: GET /search?query=logical thinking
+
 URL Example: http://127.0.0.1:8000/search?query=logical thinking
+
 [{ "product_name": "Product A",
     "url": "https://example.com/product-a",
     "adaptive_support": "Yes",
