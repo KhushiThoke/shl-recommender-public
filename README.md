@@ -16,7 +16,27 @@ A web-based Retrieval-Augmented Generation (RAG) tool using the SHL product cata
 
 ## API Endpoint
 
-`POST /recommend`  
-Input:  
-```json
-{ "query": "coding assessment" }
+
+Testing Your API 
+1. Base Endpoint Check
+ Endpoint: GET /
+ URL: http://127.0.0.1:8000/
+ Expected Response:
+{ "message": "SHL Recommender API is live!"}
+2. Search Endpoint Check
+Endpoint: GET /search?query=logical thinking
+URL Example: http://127.0.0.1:8000/search?query=logical thinking
+[{ "product_name": "Product A",
+    "url": "https://example.com/product-a",
+    "adaptive_support": "Yes",
+    "description": "Detailed info about Product A",
+    "duration": 45,
+    "remote_support": "No",
+    "test_type": ["Cognitive", "Behavioral"]
+  },
+  ...]
+📁 GitHub Repo
+https://github.com/KhushiThoke/shl-recommender-public
+Public URL
+https://shl-recommender-public-1.onrender.com
+
