@@ -27,6 +27,7 @@ Endpoint: GET /search?query=logical thinking
 
 URL Example: http://127.0.0.1:8000/search?query=logical thinking
 
+
 [{ "product_name": "Product A",
     "url": "https://example.com/product-a",
     "adaptive_support": "Yes",
@@ -36,8 +37,8 @@ URL Example: http://127.0.0.1:8000/search?query=logical thinking
     "test_type": ["Cognitive", "Behavioral"]
   },
   ...]
-📁 GitHub Repo
-https://github.com/KhushiThoke/shl-recommender-public
+
+  
 Public URL
 https://shl-recommender-public-1.onrender.com
 
